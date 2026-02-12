@@ -1,0 +1,8 @@
+# Test List
+tl: 
+  dotnet test -t 
+
+# Test Run
+tr TestName: 
+  dotnet test --filter {{TestName}}
+  # dotnet test --logger="console;verbosity=detailed" --filter {{TestName}}
